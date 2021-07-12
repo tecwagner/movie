@@ -1,5 +1,9 @@
 # Movie React
 
+ - React,
+ - CSS3,
+ - Component Material-UI
+
 ## Install
  
  - yarn
