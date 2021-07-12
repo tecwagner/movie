@@ -38,7 +38,6 @@ export default function ListAllMovies() {
 
   const getListAllMovies = async () => {
     const res = await moviesServices.getListAllMovies(page);
-    console.log("pageElse", res, dates, totalResuts);
     if (res) {
       setMovies(res.results);
       setDates(res.dates);
@@ -58,7 +57,6 @@ export default function ListAllMovies() {
 
   const handleChange = (value) => {
     setSearchMovies(value);
-    console.log("v", value);
   };
 
   const handleClick = (index) => {
