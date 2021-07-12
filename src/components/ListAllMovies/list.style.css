@@ -1,0 +1,51 @@
+.cardGrid {
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+
+.card {
+  height: 100%;
+  display: "flex";
+  flex-direction: "column";
+}
+
+.cardMedia {
+  padding-top: 60%;
+}
+.cardIcon {
+  align-items: center;
+  display: flex !important;
+  justify-content: center;
+  height: 73%;
+  padding: 30%;
+}
+
+.cardMedia image {
+  width: 50%;
+}
+
+.cardContent {
+  flex-grow: 1;
+}
+
+.cardTitle {
+  color: #cea614;
+}
+
+.cardRealese {
+  color: #a3a1a1;
+  font-size: 30px;
+}
+
+.button {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-anterior {
+  right: 60px;
+}
+.button-proximo {
+  left: 60px;
+}

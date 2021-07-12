@@ -1,0 +1,26 @@
+.cardMediaDetails {
+  padding-top: 80%;
+  width: 100%;
+  object-fit: fill;
+  border-radius: 15px;
+}
+
+.cardGridDetails {
+  display: flex !important;
+  flex-direction: row;
+}
+
+.cardDetailsOverview {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin-bottom: 60px;
+  padding: 30px;
+  position: relative;
+}
+
+.button-sair {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}

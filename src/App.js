@@ -1,9 +1,14 @@
 import "./App.css";
+import Header from "../src/components/Header";
+import Footer from "../src/components/Footer";
+import Routes from "./routes";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Movie React</header>
+      <Header />
+      <Routes />
+      <Footer />
     </div>
   );
 }
